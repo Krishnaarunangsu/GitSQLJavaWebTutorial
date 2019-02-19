@@ -1,12 +1,13 @@
 /**
  * 
  */
-package com.git.web.tutorial;
+package com.ci.git;
 
 import java.io.Serializable;
 
 /**
- * @author Arunangsu
+ * @author Arunangsu Sahu
+ * V1.0
  *
  */
 public class Employee implements Serializable {

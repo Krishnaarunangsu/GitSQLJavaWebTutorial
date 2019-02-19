@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.git.web.tutorial;
+package com.ci.git;
 
 import java.io.Serializable;
 

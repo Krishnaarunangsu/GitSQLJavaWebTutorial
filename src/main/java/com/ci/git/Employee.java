@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * @author Arunangsu Sahu
- * V1.1
+ * V1.2
  *
  */
 public class Employee implements Serializable {

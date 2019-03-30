@@ -6,4 +6,7 @@
   <packaging>war</packaging>
   <name>GitSQLJavaWebTutorial</name>
   <description>Git SQL Java Web Tutorial</description>
+  <build>
+  <finalName>GitSQLJavaWebTutorial</finalName>
+  </build>
 </project>

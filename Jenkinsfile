@@ -26,5 +26,11 @@ pipeline {
 				}
 			}
 		}
+		stage('deploy') {
+            steps {
+                //bat 'copy tlt/target/GitSQLJavaWebTutorial.war TOMCAT_DIRECTORY/webapps/'
+                bat 'copy target/GitSQLJavaWebTutorial.war C:/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/webapps'
+            }
+        }
 	}
 }

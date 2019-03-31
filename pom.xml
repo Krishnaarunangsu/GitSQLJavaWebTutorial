@@ -9,13 +9,27 @@
   <build>
   <finalName>GitSQLJavaWebTutorial</finalName>
    <plugins>
+   <!-- 
+  
+<plugin>  
+ <groupId>org.apache.tomcat.maven</groupId>  
+ <artifactId>tomcat7-maven-plugin</artifactId>  
+ <version>2.2</version>  
+ <configuration>  
+  <url>http:// localhost:8080/manager/text</url>  
+  <server>TomcatServer</server>    *(From maven > settings.xml)*
+  <username>*yourtomcatusername*</username>  
+  <password>*yourtomcatpassword*</password>   
+ </configuration>   
+</plugin>   
+    -->
       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
-            <version>2.3</version>
+            <version>3.2.2</version>
             <configuration>
              <warName>${name}</warName>
-             <outputDirectory>C:\apache-tomcat-8.5.37-windows-x64\apache-tomcat-8.5.37C:\apache-tomcat-8.5.37-windows-x64\apache-tomcat-8.5.37\webapps</outputDirectory>
+             <outputDirectory>C:\apache-tomcat-8.5.37-windows-x64\apache-tomcat-8.5.37\webapps</outputDirectory>
             </configuration>
         </plugin>
     </plugins>
